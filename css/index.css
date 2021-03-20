@@ -1,11 +1,47 @@
+html{
+    background-color: #A8AE95;
+}
+.sectionHead{
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.sectionHead2{
+    padding-top:0px;
+    padding-left:32px;
+    padding-bottom: 0;
+}
 .colorContainer{
     display: inline-block;
     margin: 40px
 }
+.sectionContainer{
+    background-color: FFFFFF;
+    border-radius:10px;
+    height:1100px;
+    width:1152px;
+}
+.sectionContainer1{
+    background-color:FFFFFF;
+    border-radius:10px;
+    height:1200;
+    width:1152;
+}
+.sectionContainer2{
+    background-color: FFFFFF;
+    border-radius: 10px;
+    height: 300px;
+    width: 1152px;
+}
+.sectionContainer3{
+    background-color: FFFFFF;
+    border-radius: 10px;
+    height: 1244px;
+    width: 1152px;
+}
 .swatch{
     height: 144;
     width: 196;
-    border: none;
+    border: 1px black;
     border-radius: 10px;
 }
 .hexCode{
@@ -69,45 +105,47 @@ div {
 .white{
     background-color: #F8F8F8;
 }
-.column{
-    float: left;
-    width: 33.33%;
-    font-size: 24px;
-    font-family: Barlow;
-    padding-top: 20px;
-    font-style: medium;
-}
+
 /* Clear floats after the columns */
 .row{
     content:"";
     clear: both;
     padding: 20px 20px 20px 20px;
 }
+.column{
+    float: left;
+    padding-left: 32;
+    width: 30%;
+    font-size: 24px;
+    font-family: Barlow;
+    padding-top: 10px;
+    font-style: medium;
+}
 h1{
 font-size:48px;
-font-style: bold;
+font-weight: bold;
 font-family: Barlow;
 }
 h2{
-    font-size:  40px;
-    font-style: bold;
+    font-size:40px;
+    font-weight:bold;
     font-family: Barlow;
 }
 h3{
     font-size:  32px;
-    font-style: bold;
+    font-weight:bold;
     font-family: Barlow;
 }
 .size{
     font-size: 48px;
     font-style: bold;
     font-family: Barlow;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .size2{
     font-size: 40px;
     font-style: bold;
-    font-family: Barlow;
+    font-family:Barlow;
 }
 .size3{
     font-size: 32px;
@@ -120,14 +158,14 @@ h3{
     font-family: Barlow;
 }
 .size5{
-    font-size: 24px;
-    font-style: bold;
-    font-family: Barlow;
+    font-size:24px;
+    font-style:bold;
+    font-family:Barlow;
 }
 .size6{
-    font-size: 20px;
-    font-style: bold;
-    font-family: Barlow;
+    font-size:20px;
+    font-style:normal;
+    font-family:Barlow;
 }
 .size7{
     font-size: 24px;
@@ -138,18 +176,18 @@ h3{
     font-size: 24px;
     font-family: lato;
     font-style: normal;
-    padding:0px;
+    padding:10px 0px 0px 32px;
 }
 .size9{
     font-size: 20px;
     font-family: lato;
-    font-style: bold;
+    font-weight: bold;
 }
 .size10{
     font-size: 20px;
     font-family: lato;
     font-style: normal;
-    padding:0;
+    padding:10px 0px 0px 32px;
 }
 .size11{
     font-size: 16px;
@@ -160,7 +198,7 @@ h3{
     font-size: 16px;
     font-family: lato;
     font-style: normal;
-    padding:0;
+    padding:5px 0px 0px 32px;
 }
 .size13{
     font-size:14px;
@@ -171,5 +209,19 @@ h3{
     font-size: 14px;
     font-family: lato;
     font-style: normal;
-    padding:0px;
+    padding:5px 0px 0px 32px;
+}
+.bodyText {
+    padding-top: 20px;
+}
+#pageTopic{
+    font-size: 52px;
+}
+.buttonRules{
+    position: absolute;
+    width: 368px;
+    height: 112px;
+    border: 1px black;
+    background-color: ;
+
 }
