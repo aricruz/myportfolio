@@ -2,13 +2,13 @@ html{
     background-color: #A8AE95;
 }
 .sectionHead{
-    padding-left: 32px;
+    padding-left: 24px;
     padding-top: 32px;
 }
 .sectionHead2{
     padding-top:0px;
     padding-left:32px;
-    padding-bottom: 0;
+    padding-bottom: 0px;
 }
 .colorContainer{
     display: inline-block;
@@ -18,7 +18,7 @@ html{
     background-color: FFFFFF;
     border-radius:10px;
     height:1100px;
-    width:1152px;
+    width:1190px;
 }
 .sectionContainer1{
     background-color:FFFFFF;
@@ -31,12 +31,17 @@ html{
     border-radius: 10px;
     height: 300px;
     width: 1152px;
+    padding-bottom: 32px;
 }
 .sectionContainer3{
     background-color: FFFFFF;
     border-radius: 10px;
     height: 1244px;
     width: 1152px;
+}
+.section{
+    padding: 10px;
+
 }
 .swatch{
     height: 144;
@@ -198,7 +203,6 @@ h3{
     font-size: 16px;
     font-family: lato;
     font-style: normal;
-    padding:5px 0px 0px 32px;
 }
 .size13{
     font-size:14px;
@@ -217,11 +221,57 @@ h3{
 #pageTopic{
     font-size: 52px;
 }
-.buttonRules{
+.buttons{
     position: absolute;
     width: 368px;
     height: 112px;
     border: 1px black;
-    background-color: ;
+}
+.buttonSection{
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+    width: 33%;
+}
+.sectionFlex{
+    display: flex;
 
+}
+.primaryButton{
+    background-color: #706271;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+}
+.buttonNormal{
+    display: inline-block;
+    padding:12px;
+    margin: 80px 0px 10px 0pc;
+    width: 175px;
+    height: 28px;
+    text-align: center; 
+}
+.secondaryButton{    
+    background-color: #909482;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+}
+.Small{
+    font-size: 16px;
+    font-family: lato;
+    color: #1D1D1D;
+    padding: 100px 32px 0px 10px;
+}
+.smallLight{
+    font-size: 16px;
+    font-family: lato;
+    color: #A8AE95;
+    padding: 20px;
 }
