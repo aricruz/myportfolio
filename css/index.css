@@ -31,13 +31,14 @@ html{
     border-radius: 10px;
     height: 300px;
     width: 1152px;
-    padding-bottom: 32px;
 }
 .sectionContainer3{
     background-color: FFFFFF;
     border-radius: 10px;
     height: 1244px;
     width: 1152px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
 }
 .section{
     padding: 10px;
@@ -128,43 +129,43 @@ div {
 }
 h1{
 font-size:48px;
-font-weight: bold;
+font-weight: 700px;
 font-family: Barlow;
 }
 h2{
     font-size:40px;
-    font-weight:bold;
+    font-weight: 700px;
     font-family: Barlow;
 }
 h3{
     font-size:  32px;
-    font-weight:bold;
+    font-weight:700px;
     font-family: Barlow;
 }
 .size{
     font-size: 48px;
-    font-style: bold;
+    font-style: 700px;
     font-family: Barlow;
     padding-top: 10px;
 }
 .size2{
     font-size: 40px;
-    font-style: bold;
+    font-style: 700px;
     font-family:Barlow;
 }
 .size3{
     font-size: 32px;
-    font-style: bold;
+    font-style: 700px;
     font-family: Barlow;
 }
 .size4{
     font-size: 28;
-    font-style: bold;
+    font-style: 700px;
     font-family: Barlow;
 }
 .size5{
     font-size:24px;
-    font-style:bold;
+    font-style: 700px;
     font-family:Barlow;
 }
 .size6{
@@ -229,15 +230,18 @@ h3{
 }
 .buttonSection{
     display: flex;
-    justify-self: start;
-    flex-direction: column;
-    width: 33%;
-}
-.sectionFlex{
-    display: flex;
+    flex-flow: column wrap;
 
 }
 .primaryButton{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: ;
+    flex-direction: column;
+}
+.mainButton{
+    height: 56px;
+    width: 272px;
     background-color: #706271;
     border: none;
     border-radius: 8px;
@@ -245,16 +249,11 @@ h3{
     font-size: 16px;
     font-family: lato;
     margin-left: 32px;
-}
-.buttonNormal{
-    display: inline-block;
-    padding:12px;
-    margin: 80px 0px 10px 0pc;
-    width: 175px;
-    height: 28px;
-    text-align: center; 
+    text-align: center;
 }
 .secondaryButton{    
+    height: 56px;
+    width: 272px;
     background-color: #909482;
     border: none;
     border-radius: 8px;
@@ -262,16 +261,102 @@ h3{
     font-size: 16px;
     font-family: lato;
     margin-left: 32px;
+    text-align: center;
 }
-.Small{
+.sectionButton{
+    display: flex;
     font-size: 16px;
     font-family: lato;
-    color: #1D1D1D;
-    padding: 100px 32px 0px 10px;
+    color: #BDBDBD;
 }
-.smallLight{
+.littleButton{ 
+    display: inline-block;   
+    height: 48px;
+    width: 240px;
+    background-color: #706271;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
     font-size: 16px;
     font-family: lato;
-    color: #A8AE95;
-    padding: 20px;
+    margin-left: 32px;
+    text-align: center;
+}
+.buttonSize{
+        display: flex;
+        justify-content: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+.medButton{
+    height: 60px;
+    width: 308px;
+    background-color: #706271;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
+}
+.largeButton{
+    height: 68px;
+    width: 344px;
+    background-color: #706271;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 20px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
+}
+.hoverButton{
+    height: 56px;
+    width: 272px;
+    background-color: #4F454F;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center; 
+}
+.activeButton{
+    height: 56px;
+    width: 272px;
+    background-color: #9B8A9D;
+    border: none;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
+}
+.focusButton{
+    height: 56px;
+    width: 272px;
+    background-color: #9B8A9D;
+    border: 1px black;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
+}
+.disabledButton{
+    height: 56px;
+    width: 272px;
+    background-color: #9B8A9D, 42%;
+    border: 1px black;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
 }
