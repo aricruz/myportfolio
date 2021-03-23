@@ -225,11 +225,11 @@ h3{
     flex-direction: column;
 }
 .mainButton{
-    height: 56px;
     width: 272px;
     background-color: #706271;
     border: none;
     border-radius: 8px;
+    padding: 10px;
     color: #E8E8E8;
     font-size: 16px;
     font-family: lato;
