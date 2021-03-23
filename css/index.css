@@ -37,8 +37,8 @@ html{
     border-radius: 10px;
     height: 1244px;
     width: 1152px;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%
 }
 .section{
     padding: 10px;
@@ -219,24 +219,9 @@ h3{
 .bodyText {
     padding-top: 20px;
 }
-#pageTopic{
-    font-size: 52px;
-}
-.buttons{
-    position: absolute;
-    width: 368px;
-    height: 112px;
-    border: 1px black;
-}
-.buttonSection{
-    display: flex;
-    flex-flow: column wrap;
-
-}
 .primaryButton{
     display: flex;
     justify-content: flex-start;
-    justify-content: ;
     flex-direction: column;
 }
 .mainButton{
@@ -264,12 +249,12 @@ h3{
     text-align: center;
 }
 .sectionButton{
-    display: flex;
+    float: inline-start;
     font-size: 16px;
     font-family: lato;
     color: #BDBDBD;
 }
-.littleButton{ 
+.smallButton{ 
     display: inline-block;   
     height: 48px;
     width: 240px;
@@ -279,7 +264,6 @@ h3{
     color: #E8E8E8;
     font-size: 16px;
     font-family: lato;
-    margin-left: 32px;
     text-align: center;
 }
 .buttonSize{
@@ -351,7 +335,7 @@ h3{
 .disabledButton{
     height: 56px;
     width: 272px;
-    background-color: #9B8A9D, 42%;
+    background-color: #9b8a9d8e;
     border: 1px black;
     border-radius: 8px;
     color: #E8E8E8;
@@ -359,4 +343,91 @@ h3{
     font-family: lato;
     margin-left: 32px;
     text-align: center;
+}
+.buttonVariants{
+    height: 56px;
+    width: 272px;
+    background-color: #9b8a9d81;
+    border: 1px black;
+    border-radius: 8px;
+    color: #E8E8E8;
+    font-size: 16px;
+    font-family: lato;
+    margin-left: 32px;
+    text-align: center;
+}
+.buttonSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+.buttonSize{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.sizeButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topSection{
+    display: flex;
+}
+/* Clear floats after the TopSection */
+
+.bottomSection{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+.sizeButton{
+    float: left;
+    font-size: 16px;
+    font-family: lato;
+    color: #BDBDBD;
+}
+.colorSection{
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding: 0px 0px 0px 32px;
+}
+.sizeSection{
+    float: right;
+    width: 50%;
+    height: 500px;
+}   
+.variantSection{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 300px;
+}
+.sectionLabel{
+    font-size: 16px;
+    font-family: lato;
+    font-style: normal;
+}
+.primarySection{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 600px;
+}
+.lineSection{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 600px;
+}
+.secondarySection{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 600px;
 }
