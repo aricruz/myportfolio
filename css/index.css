@@ -464,7 +464,7 @@ h3{
 .mainButton2{
         width: 272px;
         border: 2px #4F454F solid;
-        background-color: ;
+        background-color: none;
         border-radius: 8px;
         padding: 20px;
         color: #1D1D1D;
@@ -527,8 +527,9 @@ h3{
         border: none;
         border-radius: 8px;
         padding: 20px;
-        color: #E8E8E8
+        color: #E8E8E8;
         font-size: 16px;
         font-family: lato;
         margin-left: 32px;
         text-align: center;
+    }
