@@ -27,6 +27,8 @@ html{
     width:1152;
 }
 .sectionContainer2{
+    /* display:inline; */
+    display: flex;
     background-color: FFFFFF;
     border-radius: 10px;
     height: 300px;
@@ -218,6 +220,21 @@ h3{
 .bodyText {
     padding-top: 20px;
 }
+
+.iconSet{
+    display: grid;
+    font-size: 16px;
+    font-family: lato;
+    color: #BDBDBD;
+}
+.outlineIcon{
+    font-size: 16px;
+    font-family: lato;
+    font-style: normal;
+}
+.iconRow{
+    display:inline-block;
+}
 .primaryButton{
     display: flex;
     justify-content: flex-start;
@@ -401,10 +418,11 @@ h3{
     font-family: lato;
     font-style: normal;
 }
-.primarySection{
+/* .primarySection{
     display: grid;
     padding: 10px;
     height: 600px;
+    background-color: red;
 }
 .lineSection{
     display: grid;
@@ -415,7 +433,7 @@ h3{
     display: grid;
     padding: 10px;
     height: 600px;
-}
+} */
 .hoverButton2{
     padding: 20px;
     width: 272px;
